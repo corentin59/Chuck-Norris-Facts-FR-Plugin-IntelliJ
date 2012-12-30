@@ -1,0 +1,37 @@
+<idea-plugin version="2">
+    <id>fr.azelart.intellij.plugin.cnf</id>
+    <name>Chuck Norris Facts</name>
+    <version>1.0</version>
+    <vendor email="corentin@azelart.fr" url="https://twitter.com/CooRentin_">Corentin Azelart</vendor>
+
+    <description>Display on status bar a fact from ChuckNorrisFacts.fr</description>
+
+    <change-notes>
+    </change-notes>
+
+    <idea-version since-build="107.105"/>
+
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <application-components>
+
+    </application-components>
+
+    <project-components>
+
+    </project-components>
+
+    <actions>
+        <action id="ChuckNorrisFacts.DisplayFactsAction" class="fr.azelart.intellij.plugin.cnf.actions.DisplayFactsAction" text="Reload Chuck Norris Fact"
+                description="Reload Chuck Norris Fact" icon="cn.png">
+            <add-to-group group-id="MainToolBar" anchor="before" relative-to-action="HelpTopics"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl EXCLAMATION_MARK"/>
+        </action>
+    </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+
+    </extensions>
+</idea-plugin>
