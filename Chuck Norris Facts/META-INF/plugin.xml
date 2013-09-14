@@ -1,12 +1,13 @@
 <idea-plugin version="2">
     <id>fr.azelart.intellij.plugin.cnf</id>
     <name>Chuck Norris Facts</name>
-    <version>1.0</version>
+    <version>1.1</version>
     <vendor email="corentin@azelart.fr" url="https://twitter.com/CooRentin_">Corentin Azelart</vendor>
 
     <description>Display on status bar a fact from ChuckNorrisFacts.fr</description>
 
     <change-notes>
+        1.1 : Change for API and remove fortune
     </change-notes>
 
     <idea-version since-build="107.105"/>
