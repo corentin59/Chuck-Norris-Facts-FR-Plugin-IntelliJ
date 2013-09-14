@@ -1,4 +1,3 @@
-#Markdown Live Editor#
 #Chuck Norris Facts IntelliJ Plugin#
 
 
